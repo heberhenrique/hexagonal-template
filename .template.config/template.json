@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "SeuTime",
+  "classifications": ["Web", "API", "Hexagonal", "Architecture"],
+  "identity": "HeberHenrique.Hexagonal.Template",
+  "name": "Hexagonal Architecture API",
+  "shortName": "hexagonal",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "__ProjectName__",
+  "preferNameDirectory": true
+}
