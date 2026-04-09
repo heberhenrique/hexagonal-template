@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Hexagonal.Api.Template</id>
+    <version>1.0.0</version>
+    <authors>heberhenrique</authors>
+    <description>
+      Template dotnet new para APIs com Arquitetura Hexagonal (Ports and Adapters)
+    </description>
+    <tags>dotnet new template hexagonal clean architecture</tags>
+  </metadata>
+
+  <files>
+    <file src="**/*" exclude="bin/**;obj/**" target="content" />
+  </files>
+</package>

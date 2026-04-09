@@ -2,7 +2,7 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "SeuTime",
   "classifications": ["Web", "API", "Hexagonal", "Architecture"],
-  "identity": "HeberHenrique.Hexagonal.Template",
+  "identity": "Company.Hexagonal.Template",
   "name": "Hexagonal Architecture API",
   "shortName": "hexagonal",
   "tags": {
@@ -10,5 +10,24 @@
     "type": "project"
   },
   "sourceName": "__ProjectName__",
-  "preferNameDirectory": true
+  "preferNameDirectory": true,
+
+  "sources": [
+    {
+      "exclude": [
+        "**/.git/**",
+        "**/.vscode/**",
+        "**/.template.config/**",
+        "**/.idea/**",
+        "**/.DS_Store",
+        "**/bin/**",
+        "**/obj/**",
+        "**/*.user",
+        "**/*.suo",
+        "**/*.log",
+        "**/hexagonal-template.nuspec",
+        "**/README.md"
+      ]
+    }
+  ]
 }
