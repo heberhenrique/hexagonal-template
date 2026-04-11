@@ -11,7 +11,13 @@ using __ProjectName__.Infrastructure.Adapters;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// MVC
 builder.Services.AddControllers();
+
+// Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 
 // Application
 builder.Services.AddScoped<IGetExampleUseCase, GetExampleUseCase>();
@@ -22,5 +28,8 @@ builder.Services.AddScoped<IExampleRepository, ExampleRepository>();
 var app = builder.Build();
 
 app.MapControllers();
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.Run();
